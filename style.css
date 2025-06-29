@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row; 
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.input{
+    border-radius:6px;
+    padding: 4px;
+
+}
+.home{
+    background-color: black;
+    border-radius: 12px;
+    padding: 6px;
+  
+}
+.home:hover{
+    transform: scale(1.05, 1.05);
+    transition: 2s;
+  
+
+}
+
+
+.logins{
+    
+    background-color: rgb(18, 31, 1);
+    border-radius: 12px;
+    padding: 10px;
+}
+.logins:hover{
+   
+    color: rgb(192, 7, 7);
+    transform: scale(1.05 ,1.05);
+    transition: 2s;
+}
+    
+
+.search-btn{
+   background-color: black;
+   color: aliceblue;
+}
+.input{
+    margin-left: 5px;
+    width: 200px;
+    transition:  1s;
+}
+.input:hover{
+    width: 280px;
+}
+    
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: azure;
+ 
+} 
+a:hover{
+    transform: scale(1.05 ,1.05);
+    border-bottom: 2px solid;
+    border-bottom-color: brown;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center space-evenly;
+    background-color: rgba(112, 122, 124, 0.185);
+ 
+
+  
+  
+    
+}
+.caption{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p ,.location , .price {
+    color: brown;
+}
+.email{
+    padding-right: 25px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 12px;
+
+}
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+}
+.landpic{
+    width: 100%;
+    max-height: 350px;
+   background-size: cover;
+  
+}
+.ourmenu{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    
+   
+    
+
+}
+.meals{
+   width: 190px;
+   height: 180px;
+  
+}
+.meal-container{
+    margin: 12px;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(187, 12, 129, 0.2), 
+    0 6px 20px 0 rgba(32, 16, 248, 0.19);
+   
+   
+}
+.meal-container:hover{
+    opacity: 1;
+    transform: scale(1.09, 1.09);
+    transition: 1s;
+
+}
+.food ,.char, .price{
+    text-align: center;
+    
+}
+.explore{
+    margin-left: 48px;
+    font-style: italic;
+    font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center space-evenly;
+    background-color: rgb(11, 12, 12);
+    color: aliceblue;
+    z-index: 1;
+   
+   
+}
+.logo{
+    max-width: 200px;
+    max-height: 100px;
+}
+.addcart{
+max-height: 40px;
+max-width: 30px;
+
+}
+.cart-button{
+    border: 1px solid rgb(148, 12, 137);
+   width: 100%;
+   border-radius: 35px;
+   background-color: #f5f8fa;
+
+} 
+
+.login-form{
+    display: none;
+    place-content: center ;
+    background-color: aliceblue;
+}
+.firstname ,.lastname , legend{
+    color: red;
+    font-size: larger;
+    font-style: italic;
+}
+
+    
